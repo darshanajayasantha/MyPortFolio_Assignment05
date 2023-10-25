@@ -1,0 +1,119 @@
+#assignments{
+    width: 100vw;
+    height:150vh;
+    position: relative;
+}
+
+.img05{
+    width: 325px;
+    height: 320px;
+    border-radius: 45px;
+
+    position: absolute;
+    top: 240px;
+    left: 178px;
+    z-index: 30;
+}
+
+.box-assignment01{
+    width: 792px;
+    height: 250px;
+    background: #116530;
+
+    position: absolute;
+    top: 280px;
+    right: 100px;
+    z-index: 20;
+}
+
+.box-assignment01>h4{
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    z-index: 30;
+}
+
+.box-assignment01 > p{
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 100px;
+    z-index: 30;
+}
+
+.box-assignment01 > button{
+    width: 200px;
+    height: 30px;
+    border-radius: 45px;
+    margin-left: 20px;
+    z-index: 30;
+}
+
+.box-assignment01 > button>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    z-index: 30;
+
+}
+
+.img06{
+    width: 325px;
+    height: 320px;
+    border-radius: 45px;
+
+    position: absolute;
+    top: 640px;
+    right: 100px;
+    z-index: 30;
+}
+
+.box-assignment02{
+    width: 792px;
+    height: 250px;
+    background: #116530;
+
+    position: absolute;
+    top: 680px;
+    left: 178px;
+    z-index: 20;
+}
+
+.box-assignment02 > h4{
+    font-weight: bold;
+    font-size: 32px;
+    color: black;
+
+    position: absolute;
+    left: 20px;
+    top: 0px;
+    z-index: 30;
+}
+
+.box-assignment02 > p{
+    font-size: 24px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 100px;
+    z-index: 30;
+}
+
+.box-assignment02 > button{
+    width: 200px;
+    height: 30px;
+    border-radius: 45px;
+    margin-left: 20px;
+    z-index: 30;
+}
+
+.box-assignment02 > button>a{
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    z-index: 30;
+
+}
