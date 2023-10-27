@@ -1,60 +1,66 @@
-#skills{
-    width: 100vw;
-    height:150vh;
-    position: relative;
+/*----------------------------------------------Laptop Large (1440)---------------------------------------------*/
+@media all and (max-width: 1440px){
+    #skills{
+        width: 100vw;
+        height:150vh;
+        position: relative;
+    }
+
+    .skills-head{
+        height: 120px;
+        background-color: #F86F03;
+        font-weight: bold;
+        font-size: 48px;
+        color: black;
+        border-radius: 45px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+
+        position: absolute;
+        top: 100px;
+        z-index: 20;
+    }
+
+    .grid-box{
+        width: 1200px;
+        height: 700px;
+        display: grid;
+        grid-gap: 20px;
+
+        grid-template-columns: repeat(3,1fr);
+        grid-template-rows: repeat(2,1fr);
+
+        position: absolute;
+        top: 290px;
+        left: 160px;
+
+        z-index: 20;
+    }
+
+    .grid-box > .grid-box-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        background: linear-gradient(180deg,#116530, transparent);
+    }
+
+    .grid-box > .grid-box-item > img{
+        width: 200px;
+        aspect-ratio: 1/1;
+        margin-top: 20px;
+    }
+
+    .grid-box > .grid-box-item > h5{
+        font-weight: bold;
+        font-size: 32px;
+        color: black;
+    }
+
 }
 
-.skills-head{
-    height: 120px;
-    background-color: #F86F03;
-    font-weight: bold;
-    font-size: 48px;
-    color: black;
-    border-radius: 45px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 100px;
-
-    position: absolute;
-    top: 100px;
-    z-index: 20;
-}
-
-.grid-box{
-    width: 1200px;
-    height: 700px;
-    display: grid;
-    grid-gap: 20px;
-
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(2,1fr);
-
-    position: absolute;
-    top: 290px;
-    left: 160px;
-
-    z-index: 20;
-}
-
-.grid-box > .grid-box-item{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    background: linear-gradient(180deg,#116530, transparent);
-}
-
-.grid-box > .grid-box-item > img{
-    width: 200px;
-    aspect-ratio: 1/1;
-    margin-top: 20px;
-}
-
-.grid-box > .grid-box-item > h5{
-    font-weight: bold;
-    font-size: 32px;
-    color: black;
-}
+/*----------------------------------------------Laptop(1024)-----------------------------------------------------*/

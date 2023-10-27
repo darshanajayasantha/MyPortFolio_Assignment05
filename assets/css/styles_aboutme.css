@@ -1,127 +1,160 @@
-#aboutme{
-    width: 100vw;
-    height:150vh;
-    position: relative;
+/*----------------------------------------------Laptop Large (1440)---------------------------------------------*/
+@media all and (max-width: 1440px){
+    #aboutme{
+        width: 100vw;
+        height:150vh;
+        position: relative;
+    }
+
+    .bg_gradient2{
+        width: 100vw;
+        height: 350px;
+        background: linear-gradient(180deg,black,transparent);
+
+        position: absolute;
+        top: 20px;
+        z-index: 1;
+    }
+
+    .bg_gradient2 >div{
+        font-size: 48px;
+        font-weight: bold;
+        position: absolute;
+        top: 66px;
+        left: 100px;
+    }
+
+    .aboutme-head{
+        width: 350px;
+        height: 120px;
+        background-color: #F86F03;
+        font-weight: bold;
+        font-size: 48px;
+        color: black;
+        border-radius: 45px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 100px;
+
+        position: absolute;
+        top: 100px;
+        z-index: 20;
+    }
+
+    .line1 {
+        width: 80%;
+        height: 1px;
+        background-color:black;
+        margin: 20px 0;
+
+        position: absolute;
+        top: 199px;
+        left: 150px;
+    }
+
+    .img01{
+        width: 325px;
+        height: 320px;
+        border-radius: 45px;
+
+        position: absolute;
+        top: 240px;
+        left: 178px;
+    }
+
+    .img02{
+        width: 325px;
+        height: 320px;
+        border-radius: 45px;
+
+        position: absolute;
+        top: 625px;
+        left: 178px;
+    }
+
+    .textbox1{
+        width: 792px;
+        height: 602px;
+        background: #38b000;
+        /*background: linear-gradient(180deg,#116530, transparent);*/
+        border-radius: 45px;
+
+        position: absolute;
+        top: 280px;
+        right: 100px;
+    }
+
+    .textbox1 > h2{
+        font-weight: bold;
+        font-size: 64px;
+        color: black;
+
+        position: absolute;
+        left: 169px;
+        top: 20px;
+    }
+
+    .textbox1 > p{
+        font-weight: normal;
+        font-size: 32px;
+        color: white;
+        margin-right: 100px;
+
+        position: absolute;
+        top: 150px;
+        left: 100px;
+    }
+
+    .textbox1 > h4{
+        font-weight: bold;
+        font-size: 32px;
+        color: white;
+
+        position: absolute;
+        bottom: 50px;
+        left: 150px;
+    }
+
+    .horizontel-line2{
+        width: 80%;
+        height: 3px;
+        background-color:black;
+        margin: 20px 0;
+
+        position: absolute;
+        bottom: 10px;
+        left: 150px;
+    }
+
 }
 
-.bg_gradient2{
-    width: 100vw;
-    height: 350px;
-    background: linear-gradient(180deg,black,transparent);
 
-    position: absolute;
-    top: 20px;
-    z-index: 1;
+/*----------------------------------------------Laptop(1024)-----------------------------------------------------*/
+@media all and (max-width: 1024px){
+    .aboutme-head{
+        width: 340px;
+        height: 90px;
+        margin-left: 35px;
+    }
+
+    .line1{
+        position: absolute;
+        left: 70px;
+    }
+
+    .img01{
+        width: 244px;
+        position: absolute;
+        left: 87px;
+    }
+
+    .textbox1{
+        width: 562px;
+        height: 555px;
+        position: absolute;
+        right: 71px;
+    }
 }
 
-.bg_gradient2 >div{
-    font-size: 48px;
-    font-weight: bold;
-    position: absolute;
-    top: 66px;
-    left: 100px;
-}
-
-.aboutme-head{
-    width: 350px;
-    height: 120px;
-    background-color: #F86F03;
-    font-weight: bold;
-    font-size: 48px;
-    color: black;
-    border-radius: 45px;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 100px;
-
-    position: absolute;
-    top: 100px;
-    z-index: 20;
-}
-
-.line1 {
-    width: 80%;
-    height: 1px;
-    background-color:black;
-    margin: 20px 0;
-
-    position: absolute;
-    top: 199px;
-    left: 150px;
-}
-
-.img01{
-    width: 325px;
-    height: 320px;
-    border-radius: 45px;
-
-    position: absolute;
-    top: 240px;
-    left: 178px;
-}
-
-.img02{
-    width: 325px;
-    height: 320px;
-    border-radius: 45px;
-
-    position: absolute;
-    top: 625px;
-    left: 178px;
-}
-
-.textbox1{
-    width: 792px;
-    height: 602px;
-    background: #38b000;
-    /*background: linear-gradient(180deg,#116530, transparent);*/
-    border-radius: 45px;
-
-    position: absolute;
-    top: 280px;
-    right: 100px;
-}
-
-.textbox1 > h2{
-    font-weight: bold;
-    font-size: 64px;
-    color: black;
-
-    position: absolute;
-    left: 169px;
-    top: 20px;
-}
-
-.textbox1 > p{
-    font-weight: normal;
-    font-size: 32px;
-    color: white;
-    margin-right: 100px;
-
-    position: absolute;
-    top: 150px;
-    left: 100px;
-}
-
-.textbox1 > h4{
-    font-weight: bold;
-    font-size: 32px;
-    color: white;
-
-    position: absolute;
-    bottom: 50px;
-    left: 150px;
-}
-
-.horizontel-line2{
-    width: 80%;
-    height: 3px;
-    background-color:black;
-    margin: 20px 0;
-
-    position: absolute;
-    bottom: 10px;
-    left: 150px;
-}
